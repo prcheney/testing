@@ -2,8 +2,8 @@ const chatContainer = document.getElementById("chat-container");
 const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 
-const API_URL = "https://your-api-url-here"; // Replace with your GPT API endpoint
-const API_KEY = "your-api-key-here"; // Replace with your API key
+const API_URL = "https://api.openai.com/v1/chat/completions"; // Replace with your GPT API endpoint
+const API_KEY = "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"; // Replace with your API key
 
 function addMessage(text, isUser = true) {
   const message = document.createElement("div");
